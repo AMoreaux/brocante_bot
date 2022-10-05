@@ -4,7 +4,7 @@
   "base": "master",
   "rules": [
  {
-      "name": "Design Tokens / los",
+      "name": "Design Tokes / los",
       "path": "./output/styles/colors.css",
       "filter": {
         "types": [
