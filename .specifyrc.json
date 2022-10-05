@@ -4,7 +4,7 @@
   "base": "master",
   "rules": [
  {
-      "name": "Design Tokens / Colos",
+      "name": "Design Tokens / Corlos",
       "path": "./output/styles/colors.css",
       "filter": {
         "types": [
