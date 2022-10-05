@@ -1,0 +1,19 @@
+[
+    {
+        "id": "39517a66-e768-4365-8cc3-79ede95eaf46",
+        "createdAt": "2022-06-15T15:16:42.922Z",
+        "updatedAt": "2022-06-15T15:16:42.922Z",
+        "name": "solution-oriented Profit-focused Legacy",
+        "value": {
+            "a": 0.19,
+            "b": 100,
+            "g": 97,
+            "r": 89
+        },
+        "meta": null,
+        "type": "color",
+        "originId": "6dbd9ebe-7c94-4255-a900-eaef329204d3",
+        "sourceId": "b203b4d2-4056-4ff0-bfe7-484ccb74ac0e",
+        "repositoryId": "fb05d90b-3cab-4aaa-a604-70b918a729f9"
+    }
+]
