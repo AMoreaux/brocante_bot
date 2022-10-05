@@ -3,9 +3,30 @@
   "head": "set-up-specify",
   "base": "master",
   "rules": [
-    {
-      "name": "Extract all tokens to JSON",
-      "path": "specify_output/all-tokens.json"
+ {
+      "name": "Design Tokens / Colors",
+      "path": "./output/styles/colors.css",
+      "filter": {
+        "types": [
+          "color"
+        ]
+      },
+      "parsers": [
+        {
+          "name": "sort-by",
+          "options": {
+            "keys": [
+              "name"
+            ]
+          }
+        },
+        {
+          "name": "to-css-custom-properties",
+          "options": {
+            "formatName": "kebabCase"
+          }
+        }
+      ]
     }
   ]
 }
