@@ -23,7 +23,7 @@
         {
           "name": "to-css-custom-properties",
           "options": {
-            "formatName": "kebabCase"
+            "formatName": "camelCase"
           }
         }
       ]
