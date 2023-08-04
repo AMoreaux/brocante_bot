@@ -1,5 +1,5 @@
 {
-  "repository": "@specifyapp/test",
+  "repository": "@specifyapp/test-broken-pr",
   "head": "specify",
   "base": "master",
   "rules": [
