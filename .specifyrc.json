@@ -1,82 +1,17 @@
 {
-  "repository": "@specifyapp/package-test",
-  "head": "specify",
+  "repository": "@specifyapp/Maud-v2",
+  "head": "specifyrc-json",
   "base": "master",
-"rules": [
+  "version": "2",
+  "rules": [
     {
-      "name": "Design Tokens",
-      "path": "./output/tokens",
-      "filter": {
-        "types": [
-          "color",
-          "font",
-          "vector"
-        ]
-      },
+      "name": "SDTF",
       "parsers": [
         {
-          "name": "kebabcasify"
-        },
-        {
-          "name": "to-style-dictionary",
-          "options": {
-            "formatTokens": {
-              "fontFormat": [
-                "woff",
-                "woff2"
-              ],
-              "colorFormat": {
-                "format": "hex"
-              }
-            },
-            "assetsBaseDirectory": {
-              "fonts": "../../assets/fonts",
-              "icons": "../../assets/vectors"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "Assets / Vectors",
-      "path": "./output/assets/vectors",
-      "filter": {
-        "types": [
-          "vector"
-        ]
-      },
-      "parsers": [
-        {
-          "name": "kebabcasify"
-        },
-        {
-          "name": "svgo",
-          "options": {
-            "svgo": {
-              "js2svg": {
-                "pretty": true
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "Assets / Fonts",
-      "path": "./output/assets/fonts",
-      "filter": {
-        "types": [
-          "font"
-        ]
-      },
-      "parsers": [
-        {
-          "name": "convert-font",
-          "options": {
-            "formats": [
-              "woff",
-              "woff2"
-            ]
+          "name": "to-sdtf",
+          "output": {
+            "type": "file",
+            "filePath": "output/tokens.json"
           }
         }
       ]
