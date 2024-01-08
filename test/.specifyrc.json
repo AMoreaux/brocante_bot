@@ -1,0 +1,20 @@
+{
+  "repository": "@specifyapp/rgreg",
+  "head": "test-specifyrc-json",
+  "base": "master",
+  "version": "2",
+  "rules": [
+    {
+      "name": "SDTF",
+      "parsers": [
+        {
+          "name": "to-sdtf",
+          "output": {
+            "type": "file",
+            "filePath": "output/tokens.json"
+          }
+        }
+      ]
+    }
+  ]
+}
