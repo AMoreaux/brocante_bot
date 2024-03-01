@@ -8,10 +8,10 @@
       "name": "SDTF",
       "parsers": [
         {
-          "name": "to-sdtf",
+          "name": "to-bitmap-file",
           "output": {
-            "type": "file",
-            "filePath": "output/tokens.json"
+            "type": "directory",
+            "directoryPath": "output/tokens.json"
           }
         }
       ]
