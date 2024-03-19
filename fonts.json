@@ -13,8 +13,7 @@
             "format": "woff",
             "provider":  "external"
           }
-        ],
-
+        ]
       }
     }
   }
