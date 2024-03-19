@@ -3,17 +3,19 @@
     "Inter": {
       "$type": "font",
       "$value": {
-        "family": "Fira Code",
-        "postScriptName": "Fira-Code-Medium",
-        "weight": "medium",
-        "style": "normal",
-        "files":  [
-          {
-            "url": "https://github.com/AMoreaux/brocante_bot/raw/master/Fira-Code-Medium.woff",
-            "format": "woff",
-            "provider":  "external"
-          }
-        ]
+        "default": {
+          "family": "Fira Code",
+          "postScriptName": "Fira-Code-Medium",
+          "weight": "medium",
+          "style": "normal",
+          "files":  [
+            {
+              "url": "https://github.com/AMoreaux/brocante_bot/raw/master/Fira-Code-Medium.woff",
+              "format": "woff",
+              "provider":  "external"
+            }
+          ]
+        }
       }
     }
   }
