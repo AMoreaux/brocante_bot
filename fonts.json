@@ -13,6 +13,11 @@
               "url": "https://github.com/AMoreaux/brocante_bot/raw/master/Fira-Code-Medium.woff",
               "format": "woff",
               "provider":  "external"
+            },
+             {
+              "url": "https://github.com/AMoreaux/brocante_bot/raw/master/Fira-Code-Medium.woff2",
+              "format": "woff2",
+              "provider":  "external"
             }
           ]
         }
