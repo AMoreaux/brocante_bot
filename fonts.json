@@ -2,7 +2,7 @@
   "myFonts": {
     "Inter": {
       "$type": "font",
-      "value": {
+      "$value": {
         "family": "Fira Code",
         "postScriptName": "Fira-Code-Medium",
         "weight": "medium",
