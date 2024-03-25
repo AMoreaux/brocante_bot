@@ -1,5 +1,5 @@
 {
-  "repository": "@specifyapp/rgreg",
+  "repository": "@specifyapp/test-lucho",
   "head": "specifyrc-json",
   "base": "master",
   "version": "2",
@@ -8,10 +8,10 @@
       "name": "SDTF",
       "parsers": [
         {
-          "name": "to-bitmap-file",
+          "name": "to-sdtf",
           "output": {
-            "type": "directory",
-            "directoryPath": "output/tokens.json"
+            "type": "file",
+            "filePath": "output/tokens.json"
           }
         }
       ]
